@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, globalShortcut } = require("electron");
 
 const url = require("url");
 const path = require("path");
@@ -14,13 +14,25 @@ function createWindow() {
     },
   });
 
-  mainWindow.loadURL(
-    url.format({
-      pathname: path.join(__dirname, `./dist/index.html`),
-      protocol: "file:",
-      slashes: true,
-    })
-  );
+  if (process.env.NODE_ENV === "development") {
+    console.log("IF");
+    mainWindow.loadURL("http://localhost:8080");
+  } else {
+    console.log("ELSE");
+
+    mainWindow.loadURL(
+      url.format({
+        pathname: path.join(__dirname, `./dist/index.html`),
+        protocol: "file:",
+        slashes: true,
+      })
+    );
+  }
+
+  globalShortcut.register("CommandOrControl+R", () => {
+    mainWindow.reload();
+  });
+
   mainWindow.on("closed", function () {
     mainWindow = null;
   });

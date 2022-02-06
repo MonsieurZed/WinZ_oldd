@@ -26,7 +26,6 @@
           >vuex</a
         >
       </li>
-      <h1>TEST</h1>
       <li>
         <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
