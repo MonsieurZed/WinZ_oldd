@@ -1,0 +1,334 @@
+{
+    "packages": [
+        {
+            "id": 1,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Opera",
+            "package": "opera",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 2,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "7zip",
+            "package": "7zip",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 3,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "MPC-BE",
+            "package": "mpc-be",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 4,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "qBittorrent",
+            "package": "qbittorrent",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 5,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Origin",
+            "package": "origin",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 6,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Steam",
+            "package": "steam",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 7,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Epic Game launcher",
+            "package": "epicgameslauncher",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 8,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Ubisoft Connect",
+            "package": "ubisoft-connect",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 9,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "GOG galaxy",
+            "package": "goggalaxy",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 10,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Minecraft",
+            "package": "minecraft",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 12,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Retroarch",
+            "package": "retroarch",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 13,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Dofphin",
+            "package": "dofphin",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 14,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Cemu",
+            "package": "cemu",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 15,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Ares",
+            "package": "ares",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 16,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Mgba",
+            "package": "mgba",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 17,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Discord",
+            "package": "discord",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 18,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Teamspeack",
+            "package": "teamspeack",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 19,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Slack",
+            "package": "slack",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 20,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Calibre",
+            "package": "calibre",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 21,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Google Drive",
+            "package": "google-drive-file-stream",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 22,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "GeForce Experience",
+            "package": "geforce-experience",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 23,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Nvidia Driver",
+            "package": "nvidia-display-driver",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 24,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "AMD Ryzen ",
+            "package": "amd-ryzen-chipset",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 25,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Intel DSA",
+            "package": "intel-dsa",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 26,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "TreeSizeFree",
+            "package": "treesizefree",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 27,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Teamviewer",
+            "package": "teamviewer",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 28,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Filezilla",
+            "package": "filezilla",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 29,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Rufus",
+            "package": "rufus",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 30,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Folder Marker",
+            "package": "folder-marker",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 31,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Powertoys",
+            "package": "powertoys",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 32,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Speccy",
+            "package": "speccy",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 33,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "Gimp",
+            "package": "gimp",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        },
+        {
+            "id": 34,
+            "categorie_id": 1,
+            "source_id": 1,
+            "name": "ScreenToGif",
+            "package": "screentogif",
+            "url": "urltoupdate",
+            "description": "description",
+            "tags": []
+        }
+    ]
+}
