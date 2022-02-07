@@ -14,7 +14,6 @@
     "noFallthroughCasesInSwitch": true,
     "strictPropertyInitialization": false,
     "allowSyntheticDefaultImports": true,
-    "useUnknownInCatchVariables": false,
     "moduleResolution": "node",
     "module": "CommonJS",
     "esModuleInterop": true,

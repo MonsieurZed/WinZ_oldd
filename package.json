@@ -17,7 +17,6 @@
   "main": "background.js",
   "dependencies": {
     "electron-log": "^4.4.6",
-    "node-powershell": "^5.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -39,6 +38,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.12.0",
+    "powershell": "^2.3.2",
     "prettier": "^2.2.1",
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5",
