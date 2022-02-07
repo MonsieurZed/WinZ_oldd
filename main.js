@@ -1,7 +1,7 @@
-const { app, BrowserWindow, globalShortcut } = require("electron");
+import { app, BrowserWindow, globalShortcut } from "electron";
 
-const url = require("url");
-const path = require("path");
+import { format } from "url";
+import { join } from "path";
 
 let mainWindow;
 
@@ -21,8 +21,8 @@ function createWindow() {
     console.log("ELSE");
 
     mainWindow.loadURL(
-      url.format({
-        pathname: path.join(__dirname, `./dist/index.html`),
+      format({
+        pathname: join(__dirname, `./dist/index.html`),
         protocol: "file:",
         slashes: true,
       })

@@ -1,21 +1,27 @@
 {
   "name": "winz",
   "version": "0.1.0",
+  "description": "Test",
   "private": true,
-  "main": "main.js",
   "scripts": {
-    "electron": "set NODE_ENV=development&& electron .",
-    "start": "vue-cli-service build && electron .",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "electron": "set NODE_ENV=development&& electron .",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "start": "vue-cli-service build && electron ./dist_electron/bundled"
   },
+  "main": "background.js",
   "dependencies": {
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@types/electron-devtools-installer": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -26,6 +32,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
     "electron": "^17.0.0",
+    "electron-devtools-installer": "^3.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
@@ -33,6 +40,7 @@
     "prettier": "^2.2.1",
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5",
+    "vue-cli-plugin-electron-builder": "~2.1.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -56,5 +64,42 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ] ,
+  "publish": {
+    "provider": "github",
+    "owner": "WinZ",
+    "repo": "WinZ"
+  }
+,
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/MonsieurZed/WinZ.git"
+},
+"author": {
+  "name": "WinZ",
+  "email": "thibault.feuvrier@hotmail.fr",
+  "url": "https://github.com/MonsieurZed/WinZ/"
+},
+"contributors": [
+  {
+    "name": "Thibault Feuvrier",
+    "email": "thibault.feuvrier@hotmail.fr",
+    "url": "https://github.com/MonsieurZed"
+  },
+  {
+    "name": "Mickael Rose",
+    "email": "Mickael.rose.web@gmail.com",
+    "url": "https://github.com/Skorchy"
+  }
+],
+"license": "GNU3",
+"bugs": {
+  "url": "https://github.com/MonsieurZed/WinZ/issues"
+},
+"keywords": [
+  "installer",
+  "chocolatey",
+  "winget",
+  "driver"
+]
 }
