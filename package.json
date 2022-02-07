@@ -16,6 +16,8 @@
   },
   "main": "background.js",
   "dependencies": {
+    "electron-log": "^4.4.6",
+    "node-powershell": "^5.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -55,8 +57,14 @@
       "@vue/prettier",
       "@vue/prettier/@typescript-eslint"
     ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
     "parserOptions": {
-      "ecmaVersion": 2020
+      "ecmaVersion": 2020,
+      "parser": "@typescript-eslint/parser",
+      "sourceType": "module"
     },
     "rules": {}
   },
@@ -64,42 +72,41 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ] ,
+  ],
   "publish": {
     "provider": "github",
     "owner": "WinZ",
     "repo": "WinZ"
-  }
-,
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/MonsieurZed/WinZ.git"
-},
-"author": {
-  "name": "WinZ",
-  "email": "thibault.feuvrier@hotmail.fr",
-  "url": "https://github.com/MonsieurZed/WinZ/"
-},
-"contributors": [
-  {
-    "name": "Thibault Feuvrier",
-    "email": "thibault.feuvrier@hotmail.fr",
-    "url": "https://github.com/MonsieurZed"
   },
-  {
-    "name": "Mickael Rose",
-    "email": "Mickael.rose.web@gmail.com",
-    "url": "https://github.com/Skorchy"
-  }
-],
-"license": "GNU3",
-"bugs": {
-  "url": "https://github.com/MonsieurZed/WinZ/issues"
-},
-"keywords": [
-  "installer",
-  "chocolatey",
-  "winget",
-  "driver"
-]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurZed/WinZ.git"
+  },
+  "author": {
+    "name": "WinZ",
+    "email": "thibault.feuvrier@hotmail.fr",
+    "url": "https://github.com/MonsieurZed/WinZ/"
+  },
+  "contributors": [
+    {
+      "name": "Thibault Feuvrier",
+      "email": "thibault.feuvrier@hotmail.fr",
+      "url": "https://github.com/MonsieurZed"
+    },
+    {
+      "name": "Mickael Rose",
+      "email": "Mickael.rose.web@gmail.com",
+      "url": "https://github.com/Skorchy"
+    }
+  ],
+  "license": "GNU3",
+  "bugs": {
+    "url": "https://github.com/MonsieurZed/WinZ/issues"
+  },
+  "keywords": [
+    "installer",
+    "chocolatey",
+    "winget",
+    "driver"
+  ]
 }
