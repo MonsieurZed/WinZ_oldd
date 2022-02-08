@@ -27,7 +27,7 @@
         </button>
       </div>
 
-      <button class="button wide submit-config">
+      <button class="button wide submit-config" @click="toto">
         <span>Import Configuration</span>
       </button>
     </div>
@@ -35,7 +35,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toto() {
+      console.log("toto");
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
