@@ -1,28 +1,26 @@
-import { app, BrowserWindow, globalShortcut } from "electron";
+/* eslint-disable @typescript-eslint/no-var-requires */
+const { app, BrowserWindow, globalShortcut } = require("electron");
 
-import { format } from "url";
-import { join } from "path";
+const url = require("url");
+const path = require("path");
 
 let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1200,
+    height: 800,
     webPreferences: {
       nodeIntegration: true,
     },
   });
 
   if (process.env.NODE_ENV === "development") {
-    console.log("IF");
     mainWindow.loadURL("http://localhost:8080");
   } else {
-    console.log("ELSE");
-
     mainWindow.loadURL(
-      format({
-        pathname: join(__dirname, `./dist/index.html`),
+      url.format({
+        pathname: path.join(__dirname, `./dist/index.html`),
         protocol: "file:",
         slashes: true,
       })
